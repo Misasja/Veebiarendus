@@ -4,20 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Autentimine</title>
+    <style>
+        html {
+            font-size: 20px;
+        }
+        h1 {
+            color: blue;
+        }
+        #konteiner {
+            background-color: lightgray;
+            width: 300px;
+            border-color: black;
+            border-style: solid;
+            border-width: 2px;
+            padding-left: 15px;
+            padding-bottom: 15px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+        }
+        .tyhik-yleval {
+            margin-top: 20px;
+        }
+
+        label {
+            font-size: 1.3rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>
-        Sisselogimine
-    </h1>
-    <form action="#" method="post">
-        <label for="nimi">Kasutajanimi:</label><br>
-        <input type="text" name="nimi"><br>
-        <label for="Password">Salasõna:</label><br>
-        <input type="Password" name="salas6na"><br>
-        <input type="submit" value="Saada">
-
-    </form>
-
+    <div id="konteiner">
+        <h1>
+            Sisselogimine
+        </h1>
+        <form action="#" method="post">
+            <div>
+                <label for="nimi">Kasutajanimi:</label><br>
+                <input type="text" name="nimi">
+            </div>
+            <div class="tyhik-yleval">
+                <label for="Password">Salasõna:</label><br>
+                <input type="Password" name="salas6na"><br>
+            </div>
+            <input class="tyhik-yleval" type="submit" value="Saada">
+        </form>
+    </div>
+      
 </body>
 </html>
