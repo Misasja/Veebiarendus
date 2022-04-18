@@ -8,6 +8,7 @@ h1 {
 }
 #konteiner {
     background-color: white;
+    background-repeat: no-repeat;
     width: 300px;
     border-color: black;
     border-style: solid;
