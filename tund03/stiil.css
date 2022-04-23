@@ -1,0 +1,33 @@
+html {
+    font-size: 14px;
+    font-family: 'Akshar', sans-serif;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+.konteiner {
+    max-width: 900px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.uudis-sisu {
+    font-size: 1.3rem;
+}
+
+.uudis-autor, .uudis-kuupaev {
+    display: inline-block;
+    width: 49.5%;
+}
+
+.uudis-kuupaev {
+    text-align: right;
+}
