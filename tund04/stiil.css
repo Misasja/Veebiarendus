@@ -1,0 +1,97 @@
+body {
+    font-family: 'Akshar', sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-color: lightseagreen;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-image: url("./taust.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    color: #fff;
+}
+
+header a {
+    color: #fff;   
+}
+
+header a:hover {
+    color: aqua;
+}
+
+header a:active {
+    color: darkgrey;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    color: white;
+    margin-left: 10px;
+}
+
+header img {
+    width: 150px;
+}
+
+main {
+    background-color: azure;
+    display: flex;
+}
+
+aside {
+    width: 20%;
+}
+
+section {
+    min-height: 300px;
+    width: 80%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pildiga-blokk {
+    display: flex;
+}
+
+.pildiga-blokk img {
+    width: 45%;
+}
+
+.tekst {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main aside {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reklaam {
+    width: 80%;
+    max-height: fit-content;
+}
