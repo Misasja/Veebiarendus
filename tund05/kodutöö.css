@@ -47,6 +47,7 @@ h1 {
 .konteiner1 {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .footer {
