@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paissektsioon {
+    width: 100%;
+    height: 778px;
+    background-image: url("./assets/Hills.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.paislogo {
+    width: 66px;
+    height: 64px;
+}
+
+.paisnimi {
+    font-size: 33px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    color: #0B0B0B;
+    width: 126px;
+    line-height: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+    .paissektsioon {
+        background-image: url("./assets/Hills@2x.png");
+    }
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+nav > ul > li > a {
+    margin: 20px;
+    font-weight: 700;
+    font-size: 16.67px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    display: flex;
+}
