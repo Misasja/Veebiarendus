@@ -33,7 +33,6 @@ body {
 
 nav ul {
     list-style-type: none;
-    display: flex;
     
 }
 
@@ -45,4 +44,61 @@ nav > ul > li > a {
     color: rgb(0, 0, 0);
     margin-left: 10px;
     display: flex;
+}
+
+.paissektsiooni-pealkirjad {
+    padding-top: 200px;
+}
+
+.liblikas1 {
+    margin-top: -45px;
+    width: 75px;
+    height: 66px;
+    margin-left: auto;
+}
+
+.paissektsioon h2, .paissektsioon h1, .paissektsioon h3 {
+    letter-spacing: 0px;
+    color: #0B0B0B;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.paissektsioon h2 {
+    font-size: 39.57px;
+    line-height: 48px;
+
+}
+
+.paissektsioon h1 {
+    font-size: 74.39px;
+    line-height: 91px;
+
+}
+
+.paissektsioon h3 {
+    font-size: 20.83px;
+    line-height: 29.17px;
+
+}
+
+.rida {
+    display: flex;
+    width: 100%;
+}
+
+@media screen and (min-width: 720px) {
+    nav > ul {
+        display: flex;
+    }
+}
+
+.matkajapilt {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .matkajapilt {
+        display: block;
+    }
 }
