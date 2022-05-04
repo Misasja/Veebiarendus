@@ -58,8 +58,10 @@ nav > ul > li > a {
 }
 
 .liblikas2 {
+    margin-left: 0px;
     width: 60px;
     height: 32px;
+    margin-top: -12px;
 }
 
 .paissektsioon h2, .paissektsioon h1, .paissektsioon h3 {
@@ -78,6 +80,7 @@ nav > ul > li > a {
 .paissektsioon h1 {
     font-size: 74.39px;
     line-height: 91px;
+    margin-left: -60px;
 
 }
 
@@ -95,6 +98,15 @@ nav > ul > li > a {
 @media screen and (min-width: 720px) {
     nav > ul {
         display: flex;
+    }
+    .liblikas2 {
+        margin-left: -60px;
+        width: 60px;
+        height: 32px;
+    }
+    .paissektsioon h1 {
+        margin-left: 0px;
+    
     }
 }
 
