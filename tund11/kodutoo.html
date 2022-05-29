@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./kodutoo.css">
+    <title>Kodutöö</title>
+</head>
+<body>
+    <div id="todo-list">
+        <input v-model="todoText" placeholder="Input TODO"/>
+        <button v-on="click:add" v-attr="disabled:!todoText">Add</button>
+        <button v-on="click:deleteAll">Delete all</button>
+      
+        <div v-repeat="items">
+          <span v-on="click:done=!done" v-style="text-decoration:done?'line-through':''">{{$index}} - {{text}}</span>
+          <button v-on="click:delete">Delete</button>
+        </div>
+      </div>
+  <script src="./kodutoo.js"></script>
+</body>
+</html>
