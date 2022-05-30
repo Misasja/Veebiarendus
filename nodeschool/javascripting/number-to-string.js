@@ -1,4 +1,4 @@
-let n = 256
+let n = 128
 n = n.toString()
 
 console.log(n)
